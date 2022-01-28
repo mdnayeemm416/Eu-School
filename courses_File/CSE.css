@@ -1,0 +1,50 @@
+.title {
+	margin-top: 50px;
+	margin-left: 100px;
+}
+.title span{
+	font-weight: 700;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 60px;
+	color: #2E3D49;
+}
+.title .shortdesc {
+	padding: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: #2E3D49;
+}
+
+.course {
+	position: relative;
+	left: 100px;;
+}
+.cbox {
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.cbox .det {
+	display: block;
+	height: 50px;
+	margin: 10px;
+	background: #fff;
+	cursor: pointer;
+	border-radius: 50px;
+	width: 100%;
+}
+.cbox .det a{
+	width: 100%;
+	padding: 10px;
+	border-radius: 50px;
+	border: 1px solid #FA4B37;
+	font-size: 15px;
+	color: #272529;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+}
+
+.cbox .det a:hover{
+	background: linear-gradient(to right, #FA4B37, #DF2771);
+	color: white;
+}

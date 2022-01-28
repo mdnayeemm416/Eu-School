@@ -1,0 +1,241 @@
+/* sliding information classes */
+.sliding-information{
+    background: linear-gradient(to right, #7195ca, #249adf);
+    color: rgb(0, 0, 0);
+    height: 35px;
+    padding: auto;
+    font-size: 20px;
+}
+.eu-logo{
+    width: 300px;
+    height: 50px;
+    margin-left: 10px;
+}
+.pctive {
+    padding: 2px 15px;
+	border-radius:10px;
+	background:linear-gradient(to right, #7195ca, #249adf);
+    color: white!important;
+    position: relative;
+    top: 5px;
+    left: 850px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.carousel_img{
+    height: 600px;
+    padding-top: 5px;
+    
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: rgb(126, 122, 114);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    
+}
+.carousel-indicators .active {
+    opacity: 1;
+    width: 25px;
+    height: 9px;
+    border-radius: 12px;
+}
+footer p{
+    color: gray;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 400;
+   
+}
+/*PORTFOLIO*/
+.extra {
+	width: 100%;
+}
+.extra p {
+	padding: 30px;
+	padding-bottom: 150px;
+	font-size: 50px;
+	text-align: center;
+	color: #fff;
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url("images/extra/b1.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: cursive;
+	z-index: -9;
+}
+.smbox {
+	display: flex;
+	flex-wrap: wrap;
+	transform: translateY(-100px);
+	justify-content: center;
+}
+.smbox span {
+	margin: 1%;
+	background: #fff;
+	box-shadow: inset 0px 0px 25px rgba(0,0,0,0.2),
+						0 0 40px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	width: 300px;
+	height: 200px;
+	cursor: pointer;
+}
+.smbox span:hover {
+	transform: scale(1.3);
+	transition: .5s ease;
+}
+.smbox .data {
+	font-size: 80px;
+	color: #FA6146;	
+}
+.smbox .det {
+	font-size: 20px;
+	color: #272529;
+	font-family: cursive;
+}
+
+
+
+/*Service Section*/
+.service-swipe {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url("images/extra/b3.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+.service-swipe .s-card img {
+	width: 100px;
+}
+.service-swipe a {
+	padding: 0;
+	margin: 40px 10px;
+    text-decoration: none;
+}
+.service-swipe .s-card {
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+	align-items: center;
+	text-align: center;
+	width: 350px;
+	height: 200px;
+	box-shadow: inset 0 0 20px rgba(255,255,255,0.05),
+					0 0 50px rgba(0,0,0,0.8);
+	border-radius: 5px;
+	cursor: pointer;
+	transition-duration: .5s;
+    
+}
+.service-swipe .s-card p {
+	color: #f2f2f2;
+	font-size: 1.2em;
+	font-family: 'Open Sans',sans-serif;
+}
+.service-swipe .s-card:hover {
+	box-shadow: 0 0 50px rgba(255,255,255,0.8);
+	transform: translateY(-10px);
+}
+/*Common things in all sections*/
+#about_section, #portfolio_section, #team_section, #services_section, #contactus_section {
+	font-family: 'Open Sans', sans-serif;
+	color: #2E3D49;
+	position: relative;
+}
+.diffSection {
+	width: 100%;
+	/*position: relative;*/
+	justify-content: center;
+	align-items: center;
+}
+.diffSection .content {
+	margin: 10px;
+	text-align: center;
+	padding: 10px 100px;
+	font-size: 1.1em;
+}
+/* team */
+.team{
+    height: 60vh;
+    width: 100%;
+    background-color: #12172b;
+}
+.heading {
+    text-align: center;
+    color: white;
+    font-style: italic;
+}
+  
+.profile {
+    margin-top: 30px;
+}
+  
+.profile .profile-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+  
+.user-name {
+    margin-top: 30px;
+    font-size: 30px;
+    color: white;
+}
+.team-arrange{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.profile h5 {
+font-size: 18px;
+font-weight: 100;
+letter-spacing: 3px;
+color: #ccc;
+}
+
+/* about */
+/*ABOUT*/
+.side-text{
+    width: 500px;
+    padding-left: 50px;
+    font-size: 20px;
+}
+.about-content{
+    display: flex;
+    margin-bottom: 100px;
+}
+#about_section{
+	font-family: 'Open Sans', sans-serif;
+	color: #2E3D49;
+	position: relative;
+}
+.diffSection {
+	width: 100%;
+	/*position: relative;*/
+	justify-content: center;
+	align-items: center;
+}
+.diffSection .content {
+	margin: 10px;
+	text-align: center;
+	padding: 10px 100px;
+	font-size: 1.1em;
+}
+
+footer{
+    height: 40px;
+    background-color:black;
+    
+
+}
+
+
+
+
+
+
+
+

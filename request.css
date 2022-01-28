@@ -1,0 +1,69 @@
+.title{
+    text-align: center;
+}
+.requestbox {
+	margin-top: 40px;
+	width: 100%;
+	display: flex;
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.7)),url("slideImage-1.jpg");
+	background-size: cover;
+	padding: 50px 80px;
+	background-attachment: fixed;
+    height:100vh;
+    align-items: center;
+}
+.request {
+	width: 800px;
+	height: 450px;
+	position: relative;
+	border-radius: 10px;
+	justify-content: center;
+	box-shadow: inset 0 0 90px rgba(0,0,0,0.6),
+					0 0 80px rgba(0,0,0,0.2);
+	background: rgba(0,0,0,0.4);
+}
+.request form {
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+}
+
+.request form label {
+	position: absolute;
+	color: #f2f2f2;
+	font-size: 15px;
+	font-weight: 500;
+}
+.request form input, .request textarea {
+	padding: 8px;
+	border-radius: 5px;
+	box-shadow: inset 0 0 5px lightgray;
+	border: 1px solid rgba(0,0,0,0.2);
+	outline: none;
+	color: #2E3D49;
+	background: #fff9;
+	font-weight: 600;
+}
+.request form input {
+	margin-bottom: 15px;
+	width: 50%;
+}
+.request form .fname {
+	width: 25%;
+}
+.request form textarea {
+	width: 80%;
+	height: 100px;
+}
+.submit {
+	margin-top: 25px; 
+	background: linear-gradient(to right, #2d3b50, #023a5a);
+	border-radius: 5px;
+	border-style: none;
+	outline: none;
+	width: 90%;
+	padding: 15px 25px;
+	color: #fff;
+	font-size: 12px;
+	cursor: pointer;
+}
